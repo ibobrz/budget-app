@@ -1,0 +1,9 @@
+:root {
+  --bg: #0b1120; --panel: #111c33; --panel2: #16223d; --border: #24344f;
+  --text: #e6edf7; --muted: #8fa1bd;
+  --green: #2dd4a7; --red: #f87171; --amber: #fbbf24; --blue: #60a5fa;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+.app-header { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space
